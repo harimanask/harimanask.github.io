@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Publications</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo"><strong2>Sambhu</strong2> H. Karumanchi</div>
+        <nav>
+            <ul>
+                <li class="active"><a href="index.html">About</a></li>
+                <li class="active"><a href="publications.html">Publications</a></li>
+                <li><a href="CV.pdf">CV</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content-container">
+        <h3>Publications</h3>
+        <table>
+            <tr onmouseout="p7_stop()" onmouseover="p7_start()">
+                <td style="padding: 20px 10px; width: 5%; vertical-align: middle; text-align: center;">
+                    <!-- Adjusted padding and width -->
+                    [7]
+                </td>
+                <td style="padding: 20px; width: 25%; vertical-align: middle;">
+                    <div class="one">
+                        <div class="two" id='p7_image'><video width=100% muted autoplay loop>
+                                <source src="images/Paper7new.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video></div>
+                        <img src='images/p7photo.jpg' width=100%>
+                    </div>
+                    <script type="text/javascript">
+                        function p7_start() {
+                            document.getElementById('p7_image').style.opacity = "1";
+                        }
+
+                        function p7_stop() {
+                            document.getElementById('p7_image').style.opacity = "0";
+                        }
+                        p7_stop()
+                    </script>
+                </td>
+                <td style="padding: 20px; width: 70%; vertical-align: middle;">
+                    <a href="https://openreview.net/forum?id=GaLCLvJaoF">
+                        <span class="papertitle">Robust Model Based Reinforcement Learning using \(\mathcal{L}_1\) Adaptive control</span>
+                    </a>
+                    <br>
+                    <strong>Sambhu H. Karumanchi*</strong>,
+                    <a>Minjun Sung*</a>,
+                    <a>Aditya Gahlawat</a>,
+                    <a>Naira Hovakimyan</a>
+                    <br>
+                    <em>International Conference on Learning Representations (<strong>ICLR</strong>)</em>,  2024
+                    <br>
+                    <div class="options-container">
+                        <a href="javascript:void(0);" class="custom_a" onclick="toggleParagraph('paragraph7')">abstract</a>
+                        /
+                        <a href="#bibtex-popup-7" class="custom_a" onclick="toggleBibtexPopup('bibtex-popup-7')">bibtex</a>
+                        /
+                        <a href="images/Halfcheetah_noisefree_METRPO.gif" class="custom_a">video</a>
+                    </div>
+                    <p id="paragraph7" style="display: none;">We introduce \(\mathcal{L}_1\)-MBRL, a control-theoretic augmentation scheme for Model-Based Reinforcement Learning (MBRL) algorithms. Unlike model-free approaches, MBRL algorithms learn a model of the transition function using data and use it to design a control input. Our approach generates an approximate control-affine model of the learned transition function according to the switching law. Using the approximate model, control input produced by the underlying MBRL is perturbed by the \(\mathcal{L}_1\) adaptive control, which is designed to enhance the robustness of the system against uncertainties. Importantly, this approach is agnostic to the choice of MBRL algorithm, which enables the utilization of the scheme in various MBRL algorithms. Our method exhibits superior performance and sample efficiency on multiple MuJoCo environments, both with and without system noise, as demonstrated through numerical simulations.</p>
+                    
+
+                    <!-- BibTeX Popup Dialog -->
+                    <div id="bibtex-popup-7" class="popup">
+                        <div class="container1">
+                        <p>
+                            @inproceedings{karumanchi2024robust,<br>
+                                title={Robust Model Based Reinforcement Learning using L1 Adaptive control},<br>
+                                author={Karumanchi, Sambhu H. and Sung, Minjun and Gahlawat, Aditya and Hovakimyan, Naira},<br>
+                                booktitle={International Conference on Learning Representations (ICLR)},<br>
+                                year={2024}<br>
+                            }
+                        </p>
+                        <button onclick="toggleBibtexPopup('bibtex-popup-7')">Close</button>
+                        </div>
+                    </div>
+                    
+                    <p></p>
+                    <!-- <p>
+                        Neural fields let you recover editable UV mappings for the challenging geometries produced by NeRF-like models.
+                    </p> -->
+                </td>
+            </tr>
+
+            <tr onmouseout="P6_stop()" onmouseover="P6_start()">
+              <td style="padding: 20px 10px; width: 5%; vertical-align: middle; text-align: center;">
+                  <!-- Adjusted padding and width -->
+                  [6]
+              </td>
+              <td style="padding: 20px; width: 25%; vertical-align: middle;">
+                  <div class="one">
+                      <div class="two" id='p6_image'><video width=100% muted autoplay loop>
+                              <img src="images/p6_image.png">
+                              Your browser does not support the video tag.
+                          </video></div>
+                      <img src='images/p6_image.png' width=100%>
+                  </div>
+                  <script type="text/javascript">
+                      function P6_start() {
+                          document.getElementById('p6_image').style.opacity = "1";
+                      }
+
+                      function P6_stop() {
+                          document.getElementById('p6_image').style.opacity = "0";
+                      }
+                      P6_stop()
+                  </script>
+              </td>
+              <td style="padding: 20px; width: 70%; vertical-align: middle;">
+                  <a href="https://www.sciencedirect.com/science/article/pii/S240589632301234X">
+                      <span class="papertitle"> Empirical Dynamic Programming for Controlled Diffusions</span>
+                  </a>
+                  <br>
+                  <strong>Sambhu H. Karumanchi</strong>,
+                  <a>Mohamed A. Belabbas</a>,
+                  <a>Naira Hovakimyan</a>
+                  <br>
+                  <em>IFAC-PapersOnLine</em>,  2023
+                  <br>
+                  <a href="javascript:void(0);" class="custom_a" onclick="toggleParagraph('paragraph6')">abstract</a>
+                  /
+                  <a href="#bibtex-popup-6"  class="custom_a" onclick="toggleBibtexPopup('bibtex-popup-6')">bibtex</a>
+                  
+                  <div id="bibtex-popup-6"  class="popup">
+                    <div class="container1">
+                    <p>
+                        @article{karumanchi2023empirical,<br>
+                            title={Empirical Dynamic Programming for Controlled Diffusion Processes},<br>
+                            author={Karumanchi, Sambhu H and Belabbas, Mohamed A and Hovakimyan, Naira},<br>
+                            journal={IFAC-PapersOnLine},<br>
+                            volume={56},<br>
+                            number={2},<br>
+                            pages={11235--11241},<br>
+                            year={2023},<br>
+                            publisher={Elsevier}<br>
+                        }
+                    </p>
+                    <button onclick="toggleBibtexPopup('bibtex-popup-6')">Close</button>
+                </div>
+                </div>
+                <p id="paragraph6" style="display: none;">We consider Markov chain approximation for optimal control of diffusion processes under infinite horizon discounted cost optimality and apply the simulation-based Empirical Value Iteration to estimate the value function of each approximating chain. We follow a nested multi-grid discretization of the state space to establish weak convergence of the value function sequence to the value function of the original controlled diffusion. We illustrate the convergence performance of the model on the popular Benes' bang-bang control problem [Beneš (1974)].</p>
+                  <p></p>
+                  <!-- <p>
+                      Neural fields let you recover editable UV mappings for the challenging geometries produced by NeRF-like models.
+                  </p> -->
+              </td>
+          </tr>
+
+          <tr onmouseout="p5_stop()" onmouseover="p5_start()">
+            <td style="padding: 20px 10px; width: 5%; vertical-align: middle; text-align: center;">
+                <!-- Adjusted padding and width -->
+                [5]
+            </td>
+            <td style="padding: 20px; width: 25%; vertical-align: middle;">
+                <div class="one">
+                    <div class="two" id='p5_image'><video height=100% muted autoplay loop>
+                            <source src="images/p5video.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video></div>
+                    <img src='images/p5photo.jpg' height=100%>
+                </div>
+                <script type="text/javascript">
+                    function p5_start() {
+                        document.getElementById('p5_image').style.opacity = "1";
+                    }
+
+                    function p5_stop() {
+                        document.getElementById('p5_image').style.opacity = "0";
+                    }
+                    p5_stop()
+                </script>
+            </td>
+            <td style="padding: 20px; width: 70%; vertical-align: middle;">
+                <a href="https://ieeexplore.ieee.org/abstract/document/10309494">
+                    <span class="papertitle"> Autonomous UAV Navigation in Complex Environments using Human Feedback</span>
+                </a>
+                <br>
+                <strong>Sambhu H. Karumanchi</strong>,
+                <a>R. Diddigi</a>,
+                <a>KJ Prabuchandran</a>,
+                <a>Shalabh Bhatnagar</a>
+                <br>
+                <em>IEEE International Conference on Robot and Human Interactive Communication (<strong>RO-MAN</strong>)</em>,  2023
+                <br>
+                <a href="javascript:void(0);" class="custom_a" onclick="toggleParagraph('paragraph5')">abstract</a>
+                /
+                <a href="#bibtex-popup-5" class="custom_a" onclick="toggleBibtexPopup('bibtex-popup-5')">bibtex</a>
+                /
+                <a href="https://youtu.be/-yXT3NVuIjY?si=sr9QzPqnkQOxqQeA" class="custom_a">video</a>
+
+                <div id="bibtex-popup-5" class="popup">
+                    <div class="container1">
+                    <p>
+                        @inproceedings{karumanchi2023autonomous,<br>
+                            title={Autonomous UAV Navigation in Complex Environments using Human Feedback},<br>
+                            author={Karumanchi, Sambhu H and Diddigi, Raghuram Bharadwaj and Prabuchandran, KJ and Bhatnagar, Shalabh},<br>
+                            booktitle={2023 32nd IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)},<br>
+                            pages={499--506},<br>
+                            year={2023},<br>
+                            organization={IEEE}<br>
+                          }
+                    </p>
+                    <button onclick="toggleBibtexPopup('bibtex-popup-5')">Close</button>
+                </div>
+                </div>
+                <p id="paragraph5" style="display: none;">Autonomous navigation of Unmanned Aerial Vehicles (UAVs) has real-life applications in remote sensing, wildlife surveillance, search and rescue operations. A popular training paradigm to learn optimal actions for navigating such complex, dynamic, and uncertain environments is Reinforcement Learning (RL), where the optimal decisions are learnt over time through a reward-feedback received from the environment. However, manually constructing a feedback function that can help guide the UAV to accomplish the desired objective is often very hard. Preference-based Reinforcement Learning (PbRL) is an emerging sub-field of RL where the manual construction of reward function is replaced with human feedback. In this setting, a human is presented with a pair of trajectories followed by the RL agent to elicit the subject’s preference for one over the other. A PbRL algorithm would then compute an optimal sequence of actions using just the set of preferences collected over different trajectories. In this work, we consider PbRL for UAV navigation and follow an ensemble approach to enhance navigation performance. We demonstrate the efficacy of the proposed algorithm through experiments on a range of complex environments and tasks. Ours is the first work that uses human preferences to solve the UAV navigation problem to the best of our knowledge.</p>
+                <p></p>
+                
+            </td>
+        </tr>
+
+        <tr onmouseout="p4_stop()" onmouseover="p4_start()">
+            <td style="padding: 20px 10px; width: 5%; vertical-align: middle; text-align: center;">
+                <!-- Adjusted padding and width -->
+                [4]
+            </td>
+            <td style="padding: 20px; width: 25%; vertical-align: middle;">
+                <div class="one">
+                    <div class="two" id='p4_image'><video height=100% muted autoplay loop>
+                            <source src="images/p4video.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video></div>
+                    <img src='images/p4photo.jpg' height=100%>
+                </div>
+                <script type="text/javascript">
+                    function p4_start() {
+                        document.getElementById('p4_image').style.opacity = "1";
+                    }
+
+                    function p4_stop() {
+                        document.getElementById('p4_image').style.opacity = "0";
+                    }
+                    p4_stop()
+                </script>
+            </td>
+            <td style="padding: 20px; width: 70%; vertical-align: middle;">
+                <a href="https://arxiv.org/pdf/2210.11652.pdf">
+                    <span class="papertitle"> Real-time Autonomous Vehicle Navigation under Unknown Dynamics</span>
+                </a>
+                <br>
+                <a>Shubham Kedia</a>,
+                <strong>Sambhu H. Karumanchi</strong>
+                <br>
+                <em>IEEE Intelligent Transportation Systems Conference (<strong>ITSC</strong>)</em>,  2023
+                <br>
+                <a href="javascript:void(0);" class="custom_a" onclick="toggleParagraph('paragraph4')">abstract</a>
+                /
+                <a href="#bibtex-popup-4" class="custom_a" onclick="toggleBibtexPopup('bibtex-popup-4')">bibtex</a>
+                /
+                <a href="https://youtu.be/0SsLzYKWIFs?si=gHAwP_GXunK8j-7E" class="custom_a">video</a>
+
+                <div id="bibtex-popup-4" class="popup">
+                    <div class="container1">
+                    <p>
+                        @inproceedings{kedia2023real-time,<br>
+                            title={Real-time Autonomous Vehicle Navigation under Unknown Dynamics},<br>
+                            author={Kedia, Shubham and Karumanchi, Sambhu H},<br>
+                            booktitle={2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)},<br>
+                            pages={--},<br>
+                            year={2023},<br>
+                            organization={IEEE}<br>
+                          }
+                    </p>
+                    <button onclick="toggleBibtexPopup('bibtex-popup-4')">Close</button>
+                    </div>
+                </div>
+                <p id="paragraph4" style="display: none;"> In this work, we consider the problem of fully autonomous navigation of a vehicle to reach its desired goal in a constrained environment, specifically when the vehicle dynamics are unknown. To this end, we design a modular framework comprised of (i) LiDAR-based Hector SLAM for building a map of the environment, detecting obstacles, and tracking vehicle's conformance to any given trajectory, (ii) motion primitives-based kinodynamic Rapidly-exploring Random Trees (RRTs) for building an obstacle-free trajectory between a source and destination vehicle configuration, and finally, (iii) a Proportional Integral Derivative (PID) controller for trajectory tracking and disturbance rejection. We demonstrate the execution of our framework on an actual laboratory vehicle to perform complex maneuvers such as parallel parking, perpendicular parking, and reversing motion in a constrained environment under diverse weather and illumination conditions, such as sunny days, rainy days, and night-time.</p>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr onmouseout="P3_stop()" onmouseover="P3_start()">
+            <td style="padding: 20px 10px; width: 5%; vertical-align: middle; text-align: center;">
+                <!-- Adjusted padding and width -->
+                [3]
+            </td>
+            <td style="padding: 20px; width: 25%; vertical-align: middle;">
+                <div class="one">
+                    <div class="two" id='p3_image'><video width=100% muted autoplay loop>
+                            <img src="images/p3photo.jpg">
+                            Your browser does not support the video tag.
+                        </video></div>
+                    <img src='images/p3photo.jpg' width=100%>
+                </div>
+                <script type="text/javascript">
+                    function P3_start() {
+                        document.getElementById('p3_image').style.opacity = "1";
+                    }
+
+                    function P3_stop() {
+                        document.getElementById('p3_image').style.opacity = "0";
+                    }
+                    P3_stop()
+                </script>
+            </td>
+            <td style="padding: 20px; width: 70%; vertical-align: middle;">
+                <a href="./NASA_USRC_Congestion_Aware_Planning.pdf">
+                    <span class="papertitle"> Tackling Airspace Congestion : A Scalable and Robust Framework for End-to-End UAS Traffic
+                        Management</span>
+                </a>
+                <br>
+                <a>Minjun Sung</a>,
+                <strong>Sambhu H. Karumanchi</strong>,
+                <a>Christophe H.M. </a>,
+                <a>H. Kim</a>,
+                <a>Naira Hovakimyan</a>
+                <br>
+                <em>IEEE Intelligent Transportation Systems Conference (<strong>ITSC</strong>)</em>,  2023
+                <br>
+                <a href="javascript:void(0);" class="custom_a" onclick="toggleParagraph('paragraph3')">abstract</a>
+                /
+                <a href="#bibtex-popup-3" class="custom_a" onclick="toggleBibtexPopup('bibtex-popup-3')">bibtex</a>
+                
+                <div id="bibtex-popup-3" class="popup">
+                    <div class="container1">
+                    <p>
+                        @inproceedings{sung2023tackling,
+                            title={Tackling Airspace Congestion: A Scalable and Robust Framework for End-to-End UAS Traffic},<br>
+                            author={Sung, Minjun, and Karumanchi, Sambhu H and HM, Christophe and Kim, Hunmin and Hovakimyan, Naira},<br>
+                            booktitle={2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)},<br>
+                            pages={--},<br>
+                            year={2023},<br>
+                            organization={IEEE}<br>
+                          }
+                    </p>
+                    <button onclick="toggleBibtexPopup('bibtex-popup-3')">Close</button>
+                    </div>
+                </div>
+                <p></p>
+                <p id="paragraph3" style="display: none;">We present an end-to-end air traffic management framework for Unmanned Aircraft Systems (UAS) operations that is both scalable and robust. Our approach involves defining congestion in the airspace and developing a congestion-based cost map that can mitigate potential congestion while adhering to regulations and guidelines. Each UAS operation leverages a recursively updated cost map in solving the path planning problem, providing scalability of the framework. Additionally, we introduce a time-critical controller to enhance the robustness of mission execution. Empirical evidence confirms the feasibility and effectiveness of our method, achieving significant reductions in both cumulative and maximum levels of airspace congestion.</p>
+                
+                
+            </td>
+        </tr>
+
+        <tr onmouseout="P2_stop()" onmouseover="P2_start()">
+            <td style="padding: 20px 10px; width: 5%; vertical-align: middle; text-align: center;">
+                <!-- Adjusted padding and width -->
+                [2]
+            </td>
+            <td style="padding: 20px; width: 25%; vertical-align: middle;">
+                <div class="one">
+                    <div class="two" id='p2_image'><video width=100% muted autoplay loop>
+                            <img src="images/p2photo.png">
+                            Your browser does not support the video tag.
+                        </video></div>
+                    <img src='images/p2photo.png' width=100%>
+                </div>
+                <script type="text/javascript">
+                    function P2_start() {
+                        document.getElementById('p2_image').style.opacity = "1";
+                    }
+
+                    function P2_stop() {
+                        document.getElementById('p2_image').style.opacity = "0";
+                    }
+                    P2_stop()
+                </script>
+            </td>
+            <td style="padding: 20px; width: 70%; vertical-align: middle;">
+                <a href="https://openaccess.thecvf.com/content/CVPR2023W/E2EAD/papers/Kedia_Integrated_Perception_and_Planning_for_Autonomous_Vehicle_Navigation_An_Optimization-Based_CVPRW_2023_paper.pdf">
+                    <span class="papertitle">  Integrated Perception and Planning for Autonomous Vehicle Navigation : An Optimization Based Approach</span>
+                </a>
+                <br>
+                <a>S. Kedia</a>,
+                <a>Yu Zhao</a>,
+                <strong>Sambhu H. Karumanchi</strong>
+                <br>
+                <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (<strong>CVPRW</strong>)</em>,  2023
+                <br>
+                <a href="javascript:void(0);" class="custom_a" onclick="toggleParagraph('paragraph2')">abstract</a>
+                /
+                <a href="#bibtex-popup-2" class="custom_a" onclick="toggleBibtexPopup('bibtex-popup-2')">bibtex</a>
+                <div id="bibtex-popup-2" class="popup">
+                    <div class="container1">
+                    <p>
+                        @inproceedings{kedia2023integrated,
+                            title={Integrated Perception and Planning for Autonomous Vehicle Navigation: An Optimization-Based Approach},<br>
+                            author={Kedia, Shubham and Zhou, Yu and Karumanchi, Sambhu H},<br>
+                            booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},<br>
+                            pages={3205--3214},<br>
+                            year={2023}<br>
+                          }
+                    </p>
+                    <button onclick="toggleBibtexPopup('bibtex-popup-2')">Close</button>
+                    </div>
+                </div>
+                <p></p>
+                <p id="paragraph2" style="display: none;">We propose an optimization-based integrated perception and planning framework for autonomous vehicle navigation that achieves real-time state estimation and path planning with high accuracy and robustness. Our Simultaneous Localization And Mapping (SLAM) module is based on ErrorState Extended Kalman Filter (ES-EKF) for LiDAR-Inertial sensor fusion. The SLAM system generates a cost map using Euclidean Distance Transform (EDT) that directly encodes environmental constraints as a cost map. A non-linear trajectory optimization problem is formulated with the cost function and solved in real-time using the direct collocation approach. Our results on the KITTI dataset demonstrate the effectiveness of our framework.</p>
+                
+            </td>
+        </tr>
+
+        <tr onmouseout="p1_stop()" onmouseover="p1_start()">
+            <td style="padding: 20px 10px; width: 5%; vertical-align: middle; text-align: center;">
+                <!-- Adjusted padding and width -->
+                [1]
+            </td>
+            <td style="padding: 20px; width: 25%; vertical-align: middle;">
+                <div class="one">
+                    <div class="two" id='p1_image'><video height=100% muted autoplay loop>
+                            <source src="images/p1video.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video></div>
+                    <img src='images/p1photo.jpg' height=100%>
+                </div>
+                <script type="text/javascript">
+                    function p1_start() {
+                        document.getElementById('p1_image').style.opacity = "1";
+                    }
+
+                    function p1_stop() {
+                        document.getElementById('p1_image').style.opacity = "0";
+                    }
+                    p1_stop()
+                </script>
+            </td>
+            <td style="padding: 20px; width: 70%; vertical-align: middle;">
+                <a href="https://ieeexplore.ieee.org/abstract/document/9197003">
+                    <span class="papertitle">Closed-loop benchmarking of stereo visual-inertial SLAM systems : Understanding the impact of drift and latency on tracking accuracy</span>
+                </a>
+                <br>
+                <a>Y Zhao</a>,
+                <a>J.S. Smith</a>
+                <strong>Sambhu H. Karumanchi</strong>,
+                <a>Patricio Vela</a>
+                <br>
+                <em>IEEE International Conference on Robotics and Automation (<strong>ICRA</strong>)</em>,  2020
+                <br>
+                <a href="javascript:void(0);" class="custom_a" onclick="toggleParagraph('paragraph1')">abstract</a>
+                /
+                <a href="#bibtex-popup-1"class="custom_a"  onclick="toggleBibtexPopup('bibtex-popup-1')">bibtex</a>
+                <div id="bibtex-popup-1" class="popup">
+                    <div class="container1">
+                    <p>
+                        @inproceedings{zhao2020closed,
+                            title={Closed-loop benchmarking of stereo visual-inertial SLAM systems: Understanding the impact of drift and latency on tracking accuracy},<br>
+                            author={Zhao, Yipu and Smith, Justin S and Karumanchi, Sambhu H and Vela, Patricio A},<br>
+                            booktitle={2020 IEEE International Conference on Robotics and Automation (ICRA)},<br>
+                            pages={1105--1112},<br>
+                            year={2020},<br>
+                            organization={IEEE}<br>
+                          }
+                        </p>
+                    <button onclick="toggleBibtexPopup('bibtex-popup-1')">Close</button>
+                    </div>
+                </div>
+                /
+                <a href="https://www.youtube.com/watch?v=tqv3waLVOjM" class="custom_a">video</a>
+                <p></p>
+                <p id="paragraph1" style="display: none;">Visual-inertial SLAM is essential for robot navigation in GPS-denied environments, e.g. indoor, underground. Conventionally, the performance of visual-inertial SLAM is evaluated with open-loop analysis, with a focus on the drift level of SLAM systems. In this paper, we raise the question on the importance of visual estimation latency in closed-loop navigation tasks, such as accurate trajectory tracking. To understand the impact of both drift and latency on visualinertial SLAM systems, a closed-loop benchmarking simulation is conducted, where a robot is commanded to follow a desired trajectory using the feedback from visual-inertial estimation. By extensively evaluating the trajectory tracking performance of representative state-of-the-art visual-inertial SLAM systems, we reveal the importance of latency reduction in visual estimation module of these systems. The findings suggest directions of future improvements for visual-inertial SLAM.</p>
+                
+            </td>
+        </tr>
+            
+        </table>
+    </div>
+    <div id="overlay" class="overlay" onclick="closeAllPopups()"></div>
+
+    
+
+    
+    <footer>
+        <p>Some functions on this page are borrowed from <a href = "https://jonbarron.info/" class="custom_a"> this website.</a><br> &copy; 2024 Sambhu Harimanas Karumanchi.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="JS.js"></script>
+    <script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+    <script type="text/javascript">
+        function toggleParagraph(pid) {
+            var paragraph = document.getElementById(pid);
+            paragraph.style.display = (paragraph.style.display === 'none' || paragraph.style.display === '') ? 'block' : 'none';
+        }
+
+        function toggleBibtexPopup(id) {
+        var popup = document.getElementById(id);
+        var overlay = document.getElementById('overlay');
+        if (popup.style.display === 'none' || popup.style.display === '') {
+            popup.style.display = 'block';
+            overlay.style.display = 'block';
+        } else {
+            popup.style.display = 'none';
+            overlay.style.display = 'none';
+        }
+    }
+
+    function closeAllPopups() {
+        var popups = document.querySelectorAll('.popup');
+        var overlay = document.getElementById('overlay');
+        for (var i = 0; i < popups.length; i++) {
+            popups[i].style.display = 'none';
+        }
+        overlay.style.display = 'none';
+    }
+    
+    </script>
+</body>
+
+</html>
